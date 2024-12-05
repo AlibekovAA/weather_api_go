@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Сервис погоды</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать в сервис погоды!</h1>
+        <form action="/weather" method="GET">
+            <div class="form-group">
+                <label for="city">Введите название города:</label>
+                <input type="text" id="city" name="city" required placeholder="Например: Москва">
+            </div>
+            <button type="submit">Показать погоду</button>
+        </form>
+    </div>
+</body>
+</html>
